@@ -1,0 +1,58 @@
+.app-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  grid-template-rows: 5vh 65vh 50vh 15vh 5vh;
+  grid-template-areas:
+    'header header header'
+    'navigation photo personalInfo'
+    'navigation social main'
+    'advertise social main'
+    'footer footer footer';
+  width: 1200px;
+  margin: 0 auto;
+  grid-gap: 5px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.photo {
+  grid-area: photo;
+}
+
+.personalInfo {
+  grid-area: personalInfo;
+}
+
+.main {
+  grid-area: main;
+}
+
+.advertise {
+  grid-area: advertise;
+}
+
+.social {
+  grid-area: social;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.block {
+  border-radius: 25px;
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  background:linear-gradient(to top right, bisque, aqua);
+}
+
+img {
+  border-radius: 25px;
+}
