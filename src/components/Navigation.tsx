@@ -1,8 +1,10 @@
 import React from 'react'
+import BlockClasses from './Block.module.css'
+import NavClasses from './Navigation.module.css'
 
 export const Navigation = () => {
     return (
-        <div className='navigation block'>
+        <div className={`${NavClasses.navigation} ${BlockClasses.block}`}>
             <p>Моя страница</p>
             <p>Новости</p>
             <p>Мессенджер</p>
