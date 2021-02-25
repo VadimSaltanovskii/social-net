@@ -1,0 +1,10 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post > div > img {
+    width: 50px;
+    height: 50px;
+}

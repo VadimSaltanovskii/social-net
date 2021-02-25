@@ -1,0 +1,5 @@
+.container {
+    background-color: lightgreen;
+    display: grid;
+    grid-area: navigation;
+}
